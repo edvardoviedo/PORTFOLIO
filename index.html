@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .portfolio-button {
+        padding: 16px 32px;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 45px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.77;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .portfolio-button:hover {
+        opacity: 1;
+        transform: scale(1.05);
+      }
+
+      .portfolio-button:active {
+        transform: scale(0.98);
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://edvardo.netlify.app" class="portfolio-button"
+      >go to portfolio</a
+    >
+  </body>
+</html>
